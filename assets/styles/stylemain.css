@@ -1,0 +1,183 @@
+@font-face {
+    font-family: Lato;
+    src: url(/assets/fonts/Lato-Regular.ttf);
+}
+
+body {
+    width: 1920px;
+}
+
+.whiteblock { /*белая шапка*/
+    width: 100%;
+    height: 136px;
+    background-color:white;
+}
+
+#navigation a, span { /*как продать, истории клиентов*/
+    color:#475658;
+    font-family: Lato, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: none;
+    float: right;
+}
+.pinkblock { /*розовый блок*/
+    width: 1920px;
+    height: 536px;
+    background-color:#D44B4B;
+}
+
+.pinkblock :first-child { /*запутались в терминах*/
+    color: white;
+    font-family: Lato, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    }
+
+.pinkblock :nth-child(2) { /*узнайте, какие документы*/
+    color:white;
+    font-family: Lato, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    width: 670px;
+    height: 226px;
+    margin: 0 0 0 0;
+}
+
+[alt^="wanna"] {
+    margin-left: 260px;
+    margin-top: -600px;
+}
+
+#buildings { /*картинка со зданиями*/
+    margin: 38px 244px 2px 775px;
+    margin-top: -235px;
+}
+
+main {
+    width: 1920px;
+    height: 1838px;
+    background-color: #FAFEFF;
+}
+main div { /*блок для картинок с девушками*/
+    width: 1920px;
+    height: 644px;
+    background-color: white;
+}
+
+[alt*="girl"] {
+    width: 380px;
+    height: 392px;
+    margin: 131px 30px 119px 30px;
+}
+[alt="woman"] {
+    width: 380px;
+    height: 392px;
+    margin: 131px 30px 119px 330px;
+}
+
+main p { /*пройдите небольшой опрос*/
+    width: 889px;
+    height: 201px;
+    color: #03073C;
+    font-family: Lato, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 60px;
+    text-align: center;
+    margin: 95px 515px 69px 516px;
+}
+/*main img {
+    margin: 0px 440px 119px 440px;
+}*/
+
+main #redwhiteblock { /*бело-красная картинка с текстом*/
+    background-color: white;
+    width: 1040px;
+    height: 710px;
+    border-radius: 20px;
+    font-family: Lato, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    margin: 69px 440px 119px 440px;
+}
+
+#redwhiteblock #time { /*время прохождения опроса*/
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #03073C;
+    font-family: Lato, Arial, sans-serif;
+    margin: 136px 360px 0 358px;
+    width: 332px;
+    height: 31px;
+    text-align: left
+    
+}
+
+#redwhiteblock p span {
+    color: #D44B4B;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: Lato, Arial, sans-serif;
+    margin: 0;
+}
+
+
+#redwhiteblock p { /*хочу безопасно и легко*/
+    font-size: 35px;
+    line-height: 45px;
+    text-align: left;
+    width: 480px;
+    height: 101px;
+    margin: 74px 202px 30px 358px;
+}
+
+#redwhiteblock img {
+    margin: 0 220px 63px 360px;
+}
+
+#redwhiteblock #opros {/* после завершения опроса*/
+    font-size: 16px;
+    line-height: 26px;
+    color: #475658;
+    text-align: left;
+    width: 394px;
+    height: 212px;
+    margin: 63px 326px 60px 360px;
+}
+
+.emptyspace {
+    width: 100%;
+    height: 171px;
+    background-color: white;
+}
+
+.greyblock {
+    width: 100%;
+    height: 223px;
+    background-color: #475658;
+}
+
+.contact_info {
+    font-family: Lato, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: white;
+    float: right;
+}
+
+[alt^="logofo"] {
+    margin: 62px 0 50px 250px;
+}
+
+
