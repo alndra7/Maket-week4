@@ -13,51 +13,58 @@ body {
     background-color:white;
 }
 
-#navigation a, span { /*как продать, истории клиентов*/
+.navigation a, span { /*как продать, истории клиентов*/
     color:#475658;
     font-family: Lato, Arial, sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
     text-decoration: none;
-    float: right;
 }
+
+.navigation li {
+    list-style:none;
+}
+
 .pinkblock { /*розовый блок*/
     width: 1920px;
     height: 536px;
     background-color:#D44B4B;
 }
 
-.pinkblock :first-child { /*запутались в терминах*/
+.messedup { /*запутались в терминах*/
     color: white;
     font-family: Lato, Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
+    margin: 0;
+    width: 360px;
+    height: 28px;
     }
 
-.pinkblock :nth-child(2) { /*узнайте, какие документы*/
+.docs { /*узнайте, какие документы*/
     color:white;
     font-family: Lato, Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 45px;
     line-height: 53px;
-    width: 670px;
+    width: 600px;
     height: 226px;
-    margin: 0 0 0 0;
+    margin: 0;
 }
 
 [alt^="wanna"] {
-    margin-left: 260px;
-    margin-top: -600px;
+    margin-top: 31px;
 }
 
-#buildings { /*картинка со зданиями*/
+/*-----------------картинка со зданиями*/
+/*#buildings { 
     margin: 38px 244px 2px 775px;
     margin-top: -235px;
-}
+}*/
 
 main {
     width: 1920px;
@@ -117,8 +124,7 @@ main #redwhiteblock { /*бело-красная картинка с тексто
     margin: 136px 360px 0 358px;
     width: 332px;
     height: 31px;
-    text-align: left
-    
+    text-align: left;
 }
 
 #redwhiteblock p span {
@@ -127,8 +133,8 @@ main #redwhiteblock { /*бело-красная картинка с тексто
     font-size: 16px;
     line-height: 26px;
     font-family: Lato, Arial, sans-serif;
-    margin: 0;
-}
+    margin: 0 0 0 5px;
+} 
 
 
 #redwhiteblock p { /*хочу безопасно и легко*/
@@ -141,7 +147,7 @@ main #redwhiteblock { /*бело-красная картинка с тексто
 }
 
 #redwhiteblock img {
-    margin: 0 220px 63px 360px;
+    margin: 0 220px 0px 360px;
 }
 
 #redwhiteblock #opros {/* после завершения опроса*/
@@ -173,11 +179,15 @@ main #redwhiteblock { /*бело-красная картинка с тексто
     font-size: 14px;
     line-height: 21px;
     color: white;
-    float: right;
+}
+.contact_info li {
+    list-style: none;
+    height: 35px;
+    padding: 0;
 }
 
-[alt^="logofo"] {
+/*[alt^="logofo"] {
     margin: 62px 0 50px 250px;
-}
+}*/
 
 

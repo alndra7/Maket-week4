@@ -4,36 +4,40 @@
     <link rel="stylesheet" href="/assets/styles/stylemain.css">
     <link rel="stylesheet" href="/assets/styles/stylepositions.css">
     <link rel="stylesheet" href="/normalize.css">
+    <link rel="stylesheet" href="/assets/styles/position.css">
     
     
 </head>
 <body>
     <header>
                     <!-- белая шапка с контактами-->
-        <div class="whiteblock">
+    <div class="whiteblock">
         <img src="/assets/images/logo.svg" alt="logo" width="83" height="91">
 
-        <nav id="navigation">
-            <a href="ссылка">Как продать квартиру</a>
-            <a href="ссылка">Истории клиентов</a>
+        <nav class="navigation">
+            <ul>
+           <li> <a href="ссылка">Как продать квартиру</a></li>
+            <li><a href="ссылка">Истории клиентов</a></li>
+        </ul>
         </nav>
 
-        <img src="/assets/images/phone.svg" alt="phoneimg">
+        <span class="span"> <img width="28" height="28" src="/assets/images/phone.svg" alt="phoneimg">
 
-        <span>+ 7 495 835 47 11</span>
+        + 7 495 835 47 11</span>
 
         <img src="/assets/images/button2.png" alt="button" width="274" height="56"> 
 
     </div>
                     <!-- розовый блок с рисунком здания-->
         <div class="pinkblock">
-        <p>Запутались в сложных терминах и документах?</p>
-        <p>Узнайте, какие  документы подготовить и что учесть при  продаже и покупке квартиры</p>
-
-            <img id="buildings" src="/assets/images/buildings.png" alt="buildingsimg" height="500" width="901">
-            
+            <div class="text_block">
+        <p class="messedup">Запутались в сложных терминах и документах?</p>
+        <p class="docs">Узнайте, какие  документы подготовить и что учесть при  продаже и покупке квартиры</p>
             <!--кнопка хочу знать больше-->
             <img src="/assets/images/button3.png" alt="wannaknowmore" height="72" width="400">
+        </div>
+
+            <img id="buildings" src="/assets/images/buildings.png" alt="buildingsimg" height="500" width="901">
         </div>
     </header>
     <main>
@@ -42,8 +46,8 @@
             <img src="/assets/images/girl2.png" alt="girl2">
             <img src="/assets/images/girl3.png" alt="girl3">
         </div>
+            
         <p>Пройдите небольшой опрос и узнайте, как  избежать рисков  при продаже или покупке квартиры  </p>
-        <!--<img src="/assets/images/quiz.png" alt="quiz">-->
         <div id="redwhiteblock">
             <p id="time">Время прохождения опроса<span>3 минуты</span></p>
             <p>Хочу безопасно и легко <br> купить или продать квартиру</p>
@@ -53,27 +57,27 @@
             <li>Разъяснение сложных терминов "на пальцах"</li>
             <li>Оценку возможных рисков</li>
             </ol>
-        </div>
+            </div>
         </div>
     </main>
     <footer>
         <div class="emptyspace"></div>
         <div class="greyblock">
-                <img src="/assets/images/logofooter.png" alt="logofoot">
+                <img src="/assets/images/logofooter.png" alt="logofoot" width="101" height="112">
         
             <div class="contact_info">
-                <img src="/assets/images/mapim.svg" alt="maplogo">
-                г. Москва, Красная площадь д.1
-            </div>
-            <div  class="contact_info">
-                <img src="/assets/images/phonefooterim.svg" alt="phonelogo">
-                + 7 495 835 47 11
+                <ul>
+                <li><img src="/assets/images/mapim.svg" alt="maplogo">г. Москва, Красная площадь д.1</li>
+                <li><img src="/assets/images/phonefooterim.svg" alt="phonelogo">+ 7 495 835 47 11</li>
+            </ul>
             </div>
             <div class="contact_info">
-                <img src="/assets/images/clockim.svg" alt="clocklogo">
-                Режим работы
-                Пн. - Пт. - с 9:00 до 17:00
-                Сб. - Вс. - с 9:00 до 17:00
+                <ul>
+                <li class="worktime"><img src="/assets/images/clockim.svg" alt="clocklogo">
+                Режим работы</li>
+                <li>Пн. - Пт. - с 9:00 до 17:00</li>
+                <li>Сб. - Вс. - с 9:00 до 17:00</li>
+            </ul>
             </div>
             </div>
     </footer>

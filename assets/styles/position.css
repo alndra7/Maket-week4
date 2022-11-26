@@ -1,0 +1,60 @@
+/*------------ШАПКА------------*/
+.whiteblock {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 40px 0 40px;
+    box-sizing: border-box;
+}
+
+.navigation ul {
+    width: 485px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.span {
+    display: flex;
+}
+
+/*------------РОЗОВЫЙ БЛОК СО ЗДАНИЕМ--------*/
+.pinkblock {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 200px 0 200px;
+    box-sizing: border-box;
+}
+
+.text_block {
+    /*height: 536px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#buildings {
+    align-self: flex-end;
+    position: relative;
+    right: 100px;
+}
+
+/*-------------ПОДВАЛ-----------*/
+.greyblock {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 100px 0 100px;
+    box-sizing: border-box;
+}
+
+.contact_info img {
+    margin-right: 15px;
+    position: relative;
+    top: 5px;
+}
+
+.work_time {
+    position: relative;
+    right: 40px;
+}
